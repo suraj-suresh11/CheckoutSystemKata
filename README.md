@@ -2,15 +2,16 @@ The checkoutsystem is working properly. It also considers the special offer crit
 if B15 is scanned twice the price is 0.45 instead of 0.60. 
 
 ## Refactoring the code
-Code can be refactored by splitting the Total() method in Checkout class with 3 more smaller methods such as
+Code can be refactored by splitting the Total() method in Checkout class with 3 more smaller methods such as:
   <ul>
-  <li> ApplyOffer(): Handle applying offers for a specific SKU.
-  CalculateRegularPrice(): Calculate the price for items without any offers.
-  CalculateTotalForGroup(): A helper method to calculate the total for a specific group of items.</li>
-    
-  The code can be refactored further more to comply by the Single Responsibility Principle(SRP). The Checkout class can also be split into
-  <li> OfferService: A class to handle all logic related to special offers.
-  Checkout: The main class for scanning items and calculating the total, delegating offer-related logic to OfferService. </li></ul>
+  <li> ApplyOffer(): Handle applying offers for a specific SKU.</li>
+  <li> CalculateRegularPrice(): Calculate the price for items without any offers.</li>
+  <li> CalculateTotalForGroup(): A helper method to calculate the total for a specific group of items.</li></ul>
+  <br>
+The code can be refactored further more to comply by the Single Responsibility Principle(SRP). The Checkout class can also be split into:
+ <ul>
+  <li> OfferService: A class to handle all logic related to special offers.</li>
+  <li> Checkout: The main class for scanning items and calculating the total, delegating offer-related logic to OfferService. </li></ul>
 <br>
 By doing the above, the code can be more scalable, testable and maintainable. In future, if we want to add new offers we can add them in offerservice class without wanting to change anything 
 in Checkout class and it promotes seperation of concerns.
