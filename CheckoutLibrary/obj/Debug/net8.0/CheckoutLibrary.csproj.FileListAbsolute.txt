@@ -1,0 +1,12 @@
+/Users/surajsuresh/Desktop/CheckoutSystemKata/CheckoutLibrary/bin/Debug/net8.0/CheckoutLibrary.deps.json
+/Users/surajsuresh/Desktop/CheckoutSystemKata/CheckoutLibrary/bin/Debug/net8.0/CheckoutLibrary.dll
+/Users/surajsuresh/Desktop/CheckoutSystemKata/CheckoutLibrary/bin/Debug/net8.0/CheckoutLibrary.pdb
+/Users/surajsuresh/Desktop/CheckoutSystemKata/CheckoutLibrary/obj/Debug/net8.0/CheckoutLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/surajsuresh/Desktop/CheckoutSystemKata/CheckoutLibrary/obj/Debug/net8.0/CheckoutLibrary.AssemblyInfoInputs.cache
+/Users/surajsuresh/Desktop/CheckoutSystemKata/CheckoutLibrary/obj/Debug/net8.0/CheckoutLibrary.AssemblyInfo.cs
+/Users/surajsuresh/Desktop/CheckoutSystemKata/CheckoutLibrary/obj/Debug/net8.0/CheckoutLibrary.csproj.CoreCompileInputs.cache
+/Users/surajsuresh/Desktop/CheckoutSystemKata/CheckoutLibrary/obj/Debug/net8.0/CheckoutLibrary.sourcelink.json
+/Users/surajsuresh/Desktop/CheckoutSystemKata/CheckoutLibrary/obj/Debug/net8.0/CheckoutLibrary.dll
+/Users/surajsuresh/Desktop/CheckoutSystemKata/CheckoutLibrary/obj/Debug/net8.0/refint/CheckoutLibrary.dll
+/Users/surajsuresh/Desktop/CheckoutSystemKata/CheckoutLibrary/obj/Debug/net8.0/CheckoutLibrary.pdb
+/Users/surajsuresh/Desktop/CheckoutSystemKata/CheckoutLibrary/obj/Debug/net8.0/ref/CheckoutLibrary.dll
